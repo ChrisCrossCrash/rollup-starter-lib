@@ -1,5 +1,5 @@
-import foo from './foo.js'
+import answer from 'the-answer'
 
 export default function () {
-  import('./foo.js').then(({ default: foo }) => console.log(foo))
+  console.log('the answer is ' + answer)
 }
