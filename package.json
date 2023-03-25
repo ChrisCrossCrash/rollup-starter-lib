@@ -1,6 +1,7 @@
 {
   "name": "rollup-tut",
   "version": "1.0.0",
+  "type": "module",
   "main": "bundle.js",
   "author": "Chris Kumm <chrislkumm@protonmail.com> (https://www.chriskumm.com/)",
   "license": "UNLICENCED",
