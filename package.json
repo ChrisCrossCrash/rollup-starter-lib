@@ -5,6 +5,7 @@
   "author": "Chris Kumm <chrislkumm@protonmail.com> (https://www.chriskumm.com/)",
   "license": "UNLICENCED",
   "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
     "rollup": "^3.20.2"
   },
   "scripts": {
