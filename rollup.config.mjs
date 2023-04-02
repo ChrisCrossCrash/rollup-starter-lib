@@ -4,7 +4,7 @@ import typescript from '@rollup/plugin-typescript'
 import terser from '@rollup/plugin-terser'
 
 export default {
-  input: 'src/main.ts',
+  input: 'src/main.tsx',
   output: [
     {
       file: 'dist/bundle.js',
@@ -31,4 +31,5 @@ export default {
     // The terser plugin minifies the output.
     terser(),
   ],
+  external: ['react', 'react-dom'],
 }
