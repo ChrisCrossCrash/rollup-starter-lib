@@ -1,5 +1,5 @@
-import answer from 'the-answer'
+// TODO: Make something
 
 export default function () {
-  console.log('the answer is ' + answer)
+  console.log('Hello from `rollup-starter-lib`')
 }

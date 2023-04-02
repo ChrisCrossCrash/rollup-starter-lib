@@ -10,6 +10,11 @@ export default {
       format: 'cjs',
       sourcemap: true,
     },
+    {
+      file: 'dist/bundle.esm.js',
+      format: 'esm',
+      sourcemap: true,
+    },
   ],
   plugins: [
     // The commonjs plugin converts CommonJS modules to ES modules

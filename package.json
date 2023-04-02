@@ -1,9 +1,10 @@
 {
-  "name": "rollup-tut",
+  "name": "rollup-starter-lib",
   "version": "1.0.0",
-  "main": "bundle.js",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.esm.js",
   "author": "Chris Kumm <chrislkumm@protonmail.com> (https://www.chriskumm.com/)",
-  "license": "UNLICENCED",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-json": "^6.0.0",
@@ -17,7 +18,5 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "dependencies": {
-    "the-answer": "^1.0.0"
-  }
+  "dependencies": {}
 }
