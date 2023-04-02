@@ -1,8 +1,8 @@
-interface Props {
+interface SimpleComponentProps {
   message: string
 }
 
-const SampleComponent: React.FC<Props> = ({ message }) => {
+const SampleComponent = ({ message }: SimpleComponentProps) => {
   return (
     <div>
       <h1>{message}</h1>
