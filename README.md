@@ -16,7 +16,7 @@ To use this starter library as a base for your project, you can simply clone the
 ```bash
 git clone https://github.com/user/rollup-starter-lib.git
 cd rollup-starter-lib
-npm install
+pnpm install
 ```
 
 Replace https://github.com/user/rollup-starter-lib.git with the actual URL of your repository.
