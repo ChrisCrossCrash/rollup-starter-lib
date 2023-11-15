@@ -16,7 +16,7 @@ To use this starter library as a base for your project, you can simply clone the
 ```bash
 git clone https://github.com/user/rollup-starter-lib.git
 cd rollup-starter-lib
-pnpm install
+npm install
 ```
 
 Replace https://github.com/user/rollup-starter-lib.git with the actual URL of your repository.
@@ -26,7 +26,7 @@ Replace https://github.com/user/rollup-starter-lib.git with the actual URL of yo
 Modify the src/main.ts file to add your library code, then build your library using the `build` script:
 
 ```bash
-yarn build
+npm build
 ```
 
 This will generate CommonJS and ES Module builds in the dist folder.
