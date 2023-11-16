@@ -39,7 +39,7 @@ This will generate CommonJS and ES Module builds in the dist folder.
 
 **3. Use in Another Project**: In the directory of another project, run `npm link <your-library-name>`. This links your local library to the project, allowing you to test it as if it were installed to that project.
 
-**4. Unlink When Done**: To unlink the library, run `npm unlink <your-library-name>` in the project where it's linked, and then `npm unlink` in your library's root folder.
+**4. Unlink When Done**: To unlink the library, run `npm uninstall <your-library-name>` in the project where it's linked, and then `npm --global uninstall <your-library-name>` to remove the global link that was created with `npm link`.
 
 For further information, see the [official `npm link` documentation](https://docs.npmjs.com/cli/v10/commands/npm-link).
 
