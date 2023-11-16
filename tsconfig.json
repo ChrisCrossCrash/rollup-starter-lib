@@ -2,6 +2,7 @@
   "compilerOptions": {
     // The vast majority of browsers, as well as Node > 16, support ES2021.
     "target": "ES2021",
+    // Rollup expects the transpiled code to use ES module syntax.
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
