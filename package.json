@@ -6,6 +6,10 @@
   "typings": "dist/main.d.ts",
   "author": "Chris Kumm <chrislkumm@protonmail.com> (https://www.chriskumm.com/)",
   "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "devDependencies": {
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
